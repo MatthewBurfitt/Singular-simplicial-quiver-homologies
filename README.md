@@ -115,11 +115,11 @@ print('... and 0 otherwise')
 The expected outputs of the above code are as follows.
 
 <p align="center" name="Euler2">
-      <img src="ConeQuiver.png" alt="alt text" width="100%" height="100%">
+      <img src="ConeQuiver.png" alt="alt text" width="100%" height="75%">
 </p>
 
 <p align="center" name="Euler2">
-      <img src="ConeQuiverOutput.png" alt="alt text" width="100%" height="100%">
+      <img src="ConeQuiverOutput.png" alt="alt text" width="100%" height="75%">
 </p>
 
 
