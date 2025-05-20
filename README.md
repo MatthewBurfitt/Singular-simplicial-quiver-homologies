@@ -161,6 +161,8 @@ Computes the partially reduced directed flag complex of a given filtered quiver 
 
 #### &#x1F539; SingularQuiverHomologies.Persistent_homology(space)
 
+Computes the persistent homology of a given delta set or cell complex using the Persistent Homology Algorithm Toolkit (phat).
+
 |  | Variable | Description |
 | ------------ | ------------- | ------------- |
 | **Parameters:** | **space** | A delta set or more generally a cell complex. |
