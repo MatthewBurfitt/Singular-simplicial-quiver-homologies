@@ -20,17 +20,17 @@ Given a filtered quiver $`G`$, we provide methods to compute the persistent homo
 
 The first is the directed flag complex. A generalisation of the usual directed clique complex on digraphs. Which consists of a $`\Delta`$-set whose $`n`$-dimensional simplices correspond to  incisions of the digraph $`n`$-simplex into the quiver $`G`$.
 
-<p align="center" name="DirectedFlagComplex" width="50%" height="50%">
+<p align="center" name="DirectedFlagComplex" width="40%" height="40%">
       <img src="DirectedFlagComplex.png">
 </p>
 
 
-<p align="center" name="ReducedDirectedFlagComplex" width="50%" height="50%">
+<p align="center" name="ReducedDirectedFlagComplex" width="40%" height="40%">
       <img src="ReducedDirectedFlagComplex.png">
 </p>
 
 
-<p align="center" name="PartialDirectedFlagComplex" width="50%" height="50%">
+<p align="center" name="PartialDirectedFlagComplex" width="40%" height="40%">
       <img src="PartialDirectedFlagComplex.png">
 </p>
 
@@ -136,7 +136,7 @@ print('... and 0 otherwise')
 The expected outputs of the above code are as follows.
 
 <p align="center" name="ConeQuiver">
-      <img src="ConeQuiver.png" alt="alt text" width="50%" height="50%">
+      <img src="ConeQuiver.png" alt="alt text" width="40%" height="40%">
 </p>
 
 <p align="center" name="ConeQuiverOutput">
