@@ -14,23 +14,31 @@
 
 Extending singular homology to quivers in different categories, several homology theories have been constructed. We make use of isomorphisums between the quiver homologies and the homologies of certain spaces to created effective algorithms for computation.  Moreover, these constructions are natural and can be applied with persistent homology.
 
+This code accompanies the paper: (insert link).
+
 # Method
 
 Given a filtered quiver $`G`$, we provide methods to compute the persistent homology of three associated spaces. For more details on the space and algorithms see the accompanying paper (add link).
 
-The first is the directed flag complex. A generalisation of the usual directed clique complex on digraphs. Which consists of a $`\Delta`$-set whose $`n`$-dimensional simplices correspond to  incisions of the digraph $`n`$-simplex into the quiver $`G`$.
+In summary, the digraph $`n`$-simplex consists of vertex set $`\{ 0,1,\dots,n \}`$ and a directed edge $`i \to j`$ whenever $i,j \in`\{ 0,1,\dots,n \}`$ and $`i<j`$.
 
-<p align="center" name="DirectedFlagComplex" width="30%" height="30%">
+A quiver map $`m \colon G \to H`$ consists of a function of the set of vertices $`m_V \colon V_G \to V_H`$ of the quivers and a function on the set of edges $`m_E \colon E_G \to V_H \coprod E_H`$ sending edges to edges or vertices so that the ends of the arrows agree with the function $`m_V`$. The stricter notion of a quiver homomorphism $`h \colon G \to H`$ is a quiver map where the image of $`h_E`$ conists only of edges. Furthermore, resting quiver homomorphism s to be invective on both vertices and edges recovers the usual notions of quiver inclusion.
+
+The first space is the directed flag complex. A generalisation of the usual directed clique complex on digraphs. Which consists of a $`\Delta`$-set on the vertices of $`G`$ whose $`n`$-dimensional simplices correspond to inclusions of the digraph $`n`$-simplex into the quiver $`G`$.
+
+<p align="center" name="DirectedFlagComplex" width="20%" height="20%">
       <img src="DirectedFlagComplex.png">
 </p>
 
+The second space is the reduced directed flag complex. Which consists of the abstract simplicial complex on the vertices of $`G`$ with an $`n`$-simplex on a set of $`n`$ vertices whenever there is at least one inclusion of the digraph $`n`$-simplex into the same set of vertices in $`G`$. In particular, this space has the same homology as the chain complex formed form all digraph maps from the digraph $`n`$-simplex into $`G`$.
 
-<p align="center" name="ReducedDirectedFlagComplex" width="30%" height="30%">
+<p align="center" name="ReducedDirectedFlagComplex" width="20%" height="20%">
       <img src="ReducedDirectedFlagComplex.png">
 </p>
 
+The third and final space is the partially reduced directed flag complex. Which consists of a $`\Delta`$-set on the vertices of $`G`$ locally resampling the directed flag complex in the vicinity of vertices without self loops and the reduced directed flag complex in the vicinity of vertices with self loops. In particular, this space has the same homology as the chain complex formed form all digraph homomorphisms from the digraph $`n`$-simplex into $`G`$.
 
-<p align="center" name="PartialDirectedFlagComplex" width="30%" height="30%">
+<p align="center" name="PartialDirectedFlagComplex" width="20%" height="20%">
       <img src="PartialDirectedFlagComplex.png">
 </p>
 
