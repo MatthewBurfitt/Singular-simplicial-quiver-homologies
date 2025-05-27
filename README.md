@@ -20,7 +20,11 @@ This code accompanies the paper: (insert link).
 
 Given a filtered quiver $`G`$, we provide methods to compute the persistent homology of three associated spaces. For more details on the space and algorithms see the accompanying paper (add link).
 
-In summary, the digraph $`n`$-simplex consists of vertex set $`\{ 0,1,\dots,n \}`$ and a directed edge $`i \to j`$ whenever $i,j \in`\{ 0,1,\dots,n \}`$ and $`i<j`$.
+In summary, the digraph $`n`$-simplex consists of vertex set $`\{ 0,1,\dots,n \}`$ and a directed edge $`i \to j`$ whenever $`i,j \in \{ 0,1,\dots,n \}`$ and $`i<j`$.
+
+<p align="center" name="DigraphSimplices" width="20%" height="20%">
+      <img src="DigraphSimplices.png">
+</p>
 
 A quiver map $`m \colon G \to H`$ consists of a function of the set of vertices $`m_V \colon V_G \to V_H`$ of the quivers and a function on the set of edges $`m_E \colon E_G \to V_H \coprod E_H`$ sending edges to edges or vertices so that the ends of the arrows agree with the function $`m_V`$. The stricter notion of a quiver homomorphism $`h \colon G \to H`$ is a quiver map where the image of $`h_E`$ conists only of edges. Furthermore, resting quiver homomorphism s to be invective on both vertices and edges recovers the usual notions of quiver inclusion.
 
