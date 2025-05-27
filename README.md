@@ -4,6 +4,7 @@
 # Table of Contents
 
 1. [Overview](#Overview)
+2. [Method](#Method)  
 3. [Installation](#Installation)  
 4. [Usage](#Usage)
       1. [Example](#Example)
@@ -12,6 +13,26 @@
 # Overview
 
 Extending singular homology to quivers in different categories, several homology theories have been constructed. We make use of isomorphisums between the quiver homologies and the homologies of certain spaces to created effective algorithms for computation.  Moreover, these constructions are natural and can be applied with persistent homology.
+
+# Method
+
+Given a filtered quiver $`G`$, we provide methods to compute the persistent homology of three associated spaces. For more details on the space and algorithms see the accompanying paper (add link).
+
+The first is the directed flag complex. A generalisation of the usual directed clique complex on digraphs. Which consists of a $`\Delta`$-set whose $`n`$-dimensional simplices correspond to  incisions of the digraph $`n`$-simplex into the quiver $`G`$.
+
+<p align="center" name="DirectedFlagComplex" width="50%" height="50%">
+      <img src="DirectedFlagComplex.png">
+</p>
+
+
+<p align="center" name="ReducedDirectedFlagComplex" width="50%" height="50%">
+      <img src="ReducedDirectedFlagComplex.png">
+</p>
+
+
+<p align="center" name="PartialDirectedFlagComplex" width="50%" height="50%">
+      <img src="PartialDirectedFlagComplex.png">
+</p>
 
 
 # Installation
@@ -114,11 +135,11 @@ print('... and 0 otherwise')
 
 The expected outputs of the above code are as follows.
 
-<p align="center" name="Euler2">
+<p align="center" name="ConeQuiver">
       <img src="ConeQuiver.png" alt="alt text" width="50%" height="50%">
 </p>
 
-<p align="center" name="Euler2">
+<p align="center" name="ConeQuiverOutput">
       <img src="ConeQuiverOutput.png" alt="alt text" width="50%" height="50%">
 </p>
 
