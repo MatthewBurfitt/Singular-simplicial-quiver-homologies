@@ -12,9 +12,9 @@
 
 # Overview
 
-Extending singular homology to quivers in different categories, several homology theories have been constructed. We make use of isomorphisums between the quiver homologies and the homologies of certain spaces to created effective algorithms for computation.  Moreover, these constructions are natural and can be applied with persistent homology.
+Extending singular homology to quivers in different categories, several homology theories were constructed in [recent work](https://bimsa.net/doc/publication/5381.pdf) of Li, Muranov, Wu, and S. Yau. This code accompanies the paper (insert link), where we make use of isomorphisums between the quiver homologies and the homologies of certain spaces to created effective algorithms for their computation.  Moreover, these constructions are natural and can be applied with persistent homology.
 
-This code accompanies the paper: (insert link).
+In this repository, we proved demonstrations of these new algorithms in the form of python methods. In particular, the current implementations are not especially efficient. However, as the ideas behind the algorithm generalises those from [computing persistent homology of directed flag complexes](https://www.mdpi.com/1999-4893/13/1/19) by Lutgehetmann, Govc, Smith, and Levi and should be simiarly addpteable to an [efficient parallel processed implementation](https://github.com/luetge/flagser).
 
 # Method
 
@@ -145,7 +145,7 @@ for i in range(len(partial_inf_points_by_dim)):
 print('... and 0 otherwise')
 ```
 
-The expected outputs of the above code are as follows.
+The expected outputs of the above code is as follows.
 
 <p align="center" name="ConeQuiver">
       <img src="ConeQuiver.png" alt="alt text" width="30%" height="30%">
