@@ -21,11 +21,11 @@ print(' ')
 for i in range(len(pairs_by_dim)):
         if len(pairs_by_dim[i]) != 0:
                 print('number of persistence pairs in dim', i, ' is ', len(pairs_by_dim[i]))
-        print('... and 0 otherwise')
-        print(' ')
-        for i in range(len(inf_points_by_dim)):
-                if len(inf_points_by_dim[i]) != 0:
-                    print('number of infinite points in dim', i, ' is ', len(inf_points_by_dim[i]))
+print('... and 0 otherwise')
+print(' ')
+for i in range(len(inf_points_by_dim)):
+        if len(inf_points_by_dim[i]) != 0:
+                print('number of infinite points in dim', i, ' is ', len(inf_points_by_dim[i]))
 print('... and 0 otherwise')
 
 
@@ -51,16 +51,16 @@ for i in range(len(reduced_inf_points_by_dim)):
 print('... and 0 otherwise')
 
 
-#partially reduced flag complex
+#partial flag complex
 partial_flag_complex = SQH.Partially_reduced_directed_flag_complex(quiver, max_dim = 5)
 
-print('\n Partially reduced Flag complex of the cone has simplices:')
+print('\n Partial flag complex of the cone has simplices:')
 for i in range(len(partial_flag_complex)):
         print(len(partial_flag_complex[i]), i, 'simplices')
 
 partial_pairs_by_dim, partial_inf_points_by_dim = SQH.Persistent_homology(partial_flag_complex)
 
-print('\n Partially reduced flag complex of the cone has persistence:')
+print('\n Partial flag complex of the cone has persistence:')
 print(' ')
 for i in range(len(partial_pairs_by_dim)):
         if len(partial_pairs_by_dim[i]) != 0:
