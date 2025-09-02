@@ -165,9 +165,9 @@ Computes the directed flag complex of a given filtered quiver up to the desired 
 
 |  | Variable | Description |
 | ------------ | ------------- | ------------- |
-| **Parameters:** | **quiver** | Either a list of filtered quiver edges or a 2-tuple consisting of a list of vertices and a list of edges between vertices. Vertices are assumed to be lists containg a numeric integer values begging at 0 and edges are list of two of these elements. Both vertices and edges contain a filtration value as an additional final entry in the list. |
-| | **max_dim** | Non-negative integer indicating the maximum dimension of magnitude boundary matrix to be computed. |
-| **Returns:** | | The directed falg complex of the quiver in the form of a delta set. |
+| **Parameters:** | **quiver** | Either a list of filtered quiver edges or a 2-tuple consisting of a list of vertices and a list of edges between vertices. Vertices are assumed to be lists containing a numeric integer values begging at 0 and edges are a list of two of these elements. Both vertices and edges contain a filtration value as an additional final entry in the list. |
+| | **max_dim** | Non-negative integer indicating the maximum dimension of the boundary matrix to be computed. |
+| **Returns:** | | The directed flag complex of the quiver in the form of a delta set. |
 
 
 #### &#x1F539; SingularQuiverHomologies.Reduced_directed_flag_complex(quiver, max_dim = 4)
@@ -176,9 +176,9 @@ Computes the reduced directed flag complex of a given filtered quiver up to the 
 
 |  | Variable | Description |
 | ------------ | ------------- | ------------- |
-| **Parameters:** | **quiver** | Either a list of filtered quiver edges or a 2-tuple consisting of a list of vertices and a list of edges between vertices. Vertices are assumed to be lists containing a numeric integer values begging at 0 and edges are list of two of these elements. Both vertices and edges contain a filtration value as an additional final entry in the list. |
-| | **max_dim** | Non-negative integer indicating the maximum dimension of magnitude boundary matrix to be computed. |
-| **Returns:** | | The reduced directed falg complex of the quiver in the form of a delta set. |
+| **Parameters:** | **quiver** | Either a list of filtered quiver edges or a 2-tuple consisting of a list of vertices and a list of edges between vertices. Vertices are assumed to be lists containing a numeric integer values begging at 0 and edges are a list of two of these elements. Both vertices and edges contain a filtration value as an additional final entry in the list. |
+| | **max_dim** | Non-negative integer indicating the maximum dimension of the boundary matrix to be computed. |
+| **Returns:** | | The reduced directed flag complex of the quiver in the form of a delta set. |
 
 
 #### &#x1F539; SingularQuiverHomologies.Partially_reduced_directed_flag_complex(quiver, max_dim = 4)
@@ -187,9 +187,9 @@ Computes the partially reduced directed flag complex of a given filtered quiver 
 
 |  | Variable | Description |
 | ------------ | ------------- | ------------- |
-| **Parameters:** | **quiver** | Either a list of filtered quiver edges or a 2-tuple consisting of a list of vertices and a list of edges between vertices. Vertices are assumed to be lists containing a numeric integer values begging at 0 and edges are list of two of these elements. Both vertices and edges contain a filtration value as an additional final entry in the list. |
-| | **max_dim** | Non-negative integer indicating the maximum dimension of magnitude boundary matrix to be computed. |
-| **Returns:** | | The partially reduced directed falg complex of the quiver in the form of a delta set. |
+| **Parameters:** | **quiver** | Either a list of filtered quiver edges or a 2-tuple consisting of a list of vertices and a list of edges between vertices. Vertices are assumed to be lists containing a numeric integer values begging at 0 and edges are a list of two of these elements. Both vertices and edges contain a filtration value as an additional final entry in the list. |
+| | **max_dim** | Non-negative integer indicating the maximum dimension of the boundary matrix to be computed. |
+| **Returns:** | | The partially reduced directed flag complex of the quiver in the form of a delta set. |
 
 
 #### &#x1F539; SingularQuiverHomologies.Persistent_homology(space)
@@ -200,4 +200,4 @@ Computes the persistent homology of a given delta set or cell complex using the 
 | ------------ | ------------- | ------------- |
 | **Parameters:** | **space** | A delta set or more generally a cell complex. |
 | **Returns:** | **pairs_by_dim** | List of lists of persistence pairs of filtration values in each dimension. |
-| | **inf_points_by_dim** | List of lists of filtration values in each dimension corresponding to the both times of each finite persistence point. |
+| | **inf_points_by_dim** | List of lists of filtration values in each dimension corresponding to each finite persistence pair. |
