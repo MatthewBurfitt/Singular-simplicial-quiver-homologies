@@ -49,7 +49,7 @@ The third and final space we consider is the partially reduced directed flag com
 
 # Installation
 
-Please note that the due to the use of the *Persistent Homology Algorithm Toolkit (phat)* for persistent homology computations with cell complexes, an earlier version of python and of some packages is required.
+Please note that the due to the use of the *Persistent Homology Algorithm Toolkit (phat)* for persistent homology computations with cell complexes, an earlier version of python and of some packages are presently required.
 
 Required python packages: numpy (version 1.15.2), graphviz (version 0.14.2), phat (version 1.5.0).
 
