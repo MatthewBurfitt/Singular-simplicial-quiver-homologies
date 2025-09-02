@@ -26,7 +26,7 @@ In summary, the digraph $`n`$-simplex consists of vertex set $`\{ 0,1,\dots,n \}
       <img src="DigraphSimplices.png">
 </p>
 
-A quiver map $`m \colon G \to H`$ consists of a function of the set of vertices $`m_V \colon V_G \to V_H`$ of the quivers and a function on the set of edges $`m_E \colon E_G \to V_H \coprod E_H`$ sending edges to edges or vertices so that the ends of the arrows agree with the function $`m_V`$. The stricter notion of a quiver homomorphism $`h \colon G \to H`$ is a quiver map where the image of $`h_E`$ conists only of edges. Furthermore, resting quiver homomorphism s to be invective on both vertices and edges recovers the usual notions of quiver inclusion.
+A quiver map $`m \colon G \to H`$ consists of a function on the set of vertices $`m_V \colon V_G \to V_H`$ and a function on the set of edges $`m_E \colon E_G \to V_H \coprod E_H`$ sending edges to edges or vertices so that the ends of the arrows agree with the function $`m_V`$. The stricter notion of a quiver homomorphism $`h \colon G \to H`$ is a quiver map where the image of $`h_E`$ consists only of edges. Restricting quiver homomorphisms to those that are invective on both vertices and edges recovers the usual notions of quiver inclusion.
 
 The first space is the directed flag complex. A generalisation of the usual directed clique complex on digraphs. Which consists of a $`\Delta`$-set on the vertices of $`G`$ whose $`n`$-dimensional simplices correspond to inclusions of the digraph $`n`$-simplex into the quiver $`G`$.
 
