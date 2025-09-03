@@ -12,7 +12,7 @@
 
 # Overview
 
-Extending singular homology to quivers in different categories, several homology theories were constructed in [recent work](https://bimsa.net/doc/publication/5381.pdf) of Li, Muranov, Wu, and S. Yau. This code accompanies the [paper](https://arxiv.org/abs/2509.02065) (insert link), where we make use of isomorphisums between the quiver homologies and the homologies of certain spaces to created effective algorithms for their computation.  Moreover, these constructions are natural and can be applied with persistent homology.
+Extending singular homology to quivers in different categories, several homology theories were constructed in [recent work](https://bimsa.net/doc/publication/5381.pdf) of Li, Muranov, Wu, and S. Yau. This code accompanies the [paper](https://arxiv.org/abs/2509.02065), where we make use of isomorphisums between the quiver homologies and the homologies of certain spaces to created effective algorithms for their computation.  Moreover, these constructions are natural and can be applied with persistent homology.
 
 This repository, contains python demonstrations of the algorithms proposed in the [accompanying paper](https://arxiv.org/abs/2509.02065). These implementations are not meant to be especially efficient. However, the ideas behind the algorithm generalises those from [computing persistent homology of directed flag complexes](https://www.mdpi.com/1999-4893/13/1/19) by Lutgehetmann, Govc, Smith, and Levi and should be simiarly addpteable to an [efficient parallel processed implementation](https://github.com/luetge/flagser).
 
