@@ -12,13 +12,13 @@
 
 # Overview
 
-Extending singular homology to quivers in different categories, several homology theories were constructed in [recent work](https://bimsa.net/doc/publication/5381.pdf) of Li, Muranov, Wu, and S. Yau. This code accompanies the paper (insert link), where we make use of isomorphisums between the quiver homologies and the homologies of certain spaces to created effective algorithms for their computation.  Moreover, these constructions are natural and can be applied with persistent homology.
+Extending singular homology to quivers in different categories, several homology theories were constructed in [recent work](https://bimsa.net/doc/publication/5381.pdf) of Li, Muranov, Wu, and S. Yau. This code accompanies the [paper](https://arxiv.org/abs/2509.02065) (insert link), where we make use of isomorphisums between the quiver homologies and the homologies of certain spaces to created effective algorithms for their computation.  Moreover, these constructions are natural and can be applied with persistent homology.
 
-This repository, contains python demonstrations of the algorithms proposed in the accompanying paper (add link). These implementations are not meant to be especially efficient. However, the ideas behind the algorithm generalises those from [computing persistent homology of directed flag complexes](https://www.mdpi.com/1999-4893/13/1/19) by Lutgehetmann, Govc, Smith, and Levi and should be simiarly addpteable to an [efficient parallel processed implementation](https://github.com/luetge/flagser).
+This repository, contains python demonstrations of the algorithms proposed in the [accompanying paper](https://arxiv.org/abs/2509.02065). These implementations are not meant to be especially efficient. However, the ideas behind the algorithm generalises those from [computing persistent homology of directed flag complexes](https://www.mdpi.com/1999-4893/13/1/19) by Lutgehetmann, Govc, Smith, and Levi and should be simiarly addpteable to an [efficient parallel processed implementation](https://github.com/luetge/flagser).
 
 # Method
 
-Given a filtered quiver $`G`$, we provide methods to compute the persistent homology of three associated spaces. For more details on the space and algorithms see the accompanying paper (add link).
+Given a filtered quiver $`G`$, we provide methods to compute the persistent homology of three associated spaces. For more details on the space and algorithms see the [accompanying paper](https://arxiv.org/abs/2509.02065).
 
 In summary, the digraph $`n`$-simplex consists of vertex set $`\{ 0,1,\dots,n \}`$ and a directed edge $`i \to j`$ whenever $`i,j \in \{ 0,1,\dots,n \}`$ and $`i<j`$.
 
